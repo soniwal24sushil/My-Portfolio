@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sushil Soniwal - Consistent Coder!</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ^ Navbar -->
+    <nav>
+      <div class="container main-nav flex">
+        <!-- ! Logo -->
+        <div class="nav-logo">
+          <img src="img/logo.png" alt="logo" />
+        </div>
+
+        <!-- ! Links -->
+        <div class="nav-links">
+          <ul class="flex">
+            <li>
+              <a href="#Home" class="hover-link nav-heading active">Home</a>
+            </li>
+            <li><a href="#About" class="hover-link nav-heading">About</a></li>
+            <li>
+              <a href="#Projects" class="hover-link nav-heading">Projects</a>
+            </li>
+            <li><a href="#Skills" class="hover-link nav-heading">Skills</a></li>
+            <li>
+              <a href="#Repositories" class="hover-link nav-heading"
+                >Repositories</a
+              >
+            </li>
+            <li>
+              <a href="#Contact" class="hover-link nav-heading">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ^ Hero Section -->
+    <section id="Home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="main-heading">Hi, I'm <span id="element"></span></h1>
+            <p class="para">
+              Consistent Coder 🚀 | Aspiring MERN Developer | GSSOC'23
+              Participant 🌟 LeetCode: 2.5🌟 | CodingNinjas Champion | Azure
+              Intern at Microsoft 💻 1M+ Content Views | ECE'24 | Open to
+              Opportunities
+            </p>
+
+            <button class="botao">
+              <svg
+                width="24px"
+                height="24px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="mysvg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g id="Interface / Download">
+                    <path
+                      id="Vector"
+                      d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                      stroke="#f1f1f1"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              <span class="texto para">Resume</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <img src="img/Hero-img.png" alt="Image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/f65c02f848.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Sushil Soniwal!"],
+        typeSpeed: 50, // Typing speed in milliseconds
+        backSpeed: 30, // Backspacing speed in milliseconds
+        loop: true, // Enable looping
+        loopCount: Infinity, // Number of loops, set to Infinity for infinite loop
+        backDelay: 3000,
+      });
+    </script>
+  </body>
+</html>
