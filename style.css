@@ -70,7 +70,6 @@ li {
     max-width: 1200px;
     margin-inline: auto;
     padding: 0 20px;
-    background-color: ;
 }
 
 .active {
@@ -225,4 +224,195 @@ section {
     .hero-img {
         width: 100%;
     }
+}
+
+/* ^ Project */
+
+#Projects {
+    background-color: rgba(231, 231, 231);
+}
+
+.project-section-heading {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.project-container {
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.project-card {
+    display: flex;
+    width: 90%;
+    height: 550px;
+    background-image: url(img/Zerodha.png);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 40px #1f1f1f;
+}
+
+.project-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #1f1f1f9a;
+    z-index: 0;
+}
+
+.project-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
+    transform: scaleX(0);
+    transform-origin: left;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.project-card:hover::before {
+    transform: scaleX(1);
+}
+
+.project-content {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+    gap: 1em;
+    bottom: 10%;
+    padding: 2em;
+    transition: all 0.4s ease;
+    margin-left: 3%;
+    width: 90%;
+}
+
+.project-card:hover .project-content {
+    transform: scale(1.1);
+}
+
+.white {
+    color: white !important;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.project-links {
+    display: flex;
+    gap: 20px;
+}
+
+.tech-stack {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tech-img {
+    width: 7%;
+}
+
+.Btn {
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    transition-duration: 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+
+.svgIcon {
+    transition-duration: 0.3s;
+}
+
+.svgIcon path {
+    fill: white;
+}
+
+.text {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    font-weight: 600;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.Btn:hover {
+    width: 110px;
+    transition-duration: 0.5s;
+    border-radius: 30px;
+}
+
+.Btn:hover .text {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.Btn:hover .svgIcon {
+    opacity: 0;
+    transition-duration: 0.4s;
+}
+
+.demo-btn {
+    background-color: rgba(89, 25, 209, 0.877);
+}
+
+.demo {
+    height: 17px;
+}
+
+.second {
+    background-image: url(img/Netflix.png);
+}
+
+.second::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #0a0a0ac4;
+    z-index: 0;
+}
+
+.third {
+    background: url(img/Portfolio.png) no-repeat center center/cover;
+}
+
+.third::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #0a0a0ac4;
+    z-index: 0;
 }

@@ -1,115 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sushil Soniwal - Consistent Coder!</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sushil Soniwal - Consistent Coder!</title>
 
-  <body>
-    <!-- ^ Navbar -->
-    <nav>
-      <div class="container main-nav flex">
-        <!-- ! Logo -->
-        <div class="nav-logo">
-          <img src="img/logo.png" alt="logo" />
-        </div>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        <!-- ! Links -->
-        <div class="nav-links">
-          <ul class="flex">
-            <li>
-              <a href="#Home" class="hover-link nav-heading active">Home</a>
-            </li>
-            <li><a href="#About" class="hover-link nav-heading">About</a></li>
-            <li>
-              <a href="#Projects" class="hover-link nav-heading">Projects</a>
-            </li>
-            <li><a href="#Skills" class="hover-link nav-heading">Skills</a></li>
-            <li>
-              <a href="#Repositories" class="hover-link nav-heading"
-                >Repositories</a
-              >
-            </li>
-            <li>
-              <a href="#Contact" class="hover-link nav-heading">Contact</a>
-            </li>
-          </ul>
+<body>
+  <!-- ^ Navbar -->
+  <nav>
+    <div class="container main-nav flex">
+      <!-- ! Logo -->
+      <div class="nav-logo">
+        <img src="img/logo.png" alt="logo" />
+      </div>
+
+      <!-- ! Links -->
+      <div class="nav-links">
+        <ul class="flex">
+          <li>
+            <a href="#Home" class="hover-link nav-heading active">Home</a>
+          </li>
+          <li><a href="#About" class="hover-link nav-heading">About</a></li>
+          <li>
+            <a href="#Projects" class="hover-link nav-heading">Projects</a>
+          </li>
+          <li><a href="#Skills" class="hover-link nav-heading">Skills</a></li>
+          <li>
+            <a href="#Repositories" class="hover-link nav-heading">Repositories</a>
+          </li>
+          <li>
+            <a href="#Contact" class="hover-link nav-heading">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ^ Hero Section -->
+  <section id="Home">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="main-heading">Hi, I'm <span id="element"></span></h1>
+          <p class="para">
+            Consistent Coder 🚀 | Aspiring MERN Developer | GSSOC'23
+            Participant 🌟 LeetCode: 2.5🌟 | CodingNinjas Champion | Azure
+            Intern at Microsoft 💻 1M+ Content Views | ECE'24 | Open to
+            Opportunities
+          </p>
+
+          <button class="botao">
+            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+              class="mysvg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <g id="Interface / Download">
+                  <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="#f1f1f1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+              </g>
+            </svg>
+            <span class="texto para">Resume</span>
+          </button>
         </div>
       </div>
-    </nav>
 
-    <!-- ^ Hero Section -->
-    <section id="Home">
-      <div class="container hero-container">
-        <div class="hero-content">
-          <div class="hero-text">
-            <h1 class="main-heading">Hi, I'm <span id="element"></span></h1>
-            <p class="para">
-              Consistent Coder 🚀 | Aspiring MERN Developer | GSSOC'23
-              Participant 🌟 LeetCode: 2.5🌟 | CodingNinjas Champion | Azure
-              Intern at Microsoft 💻 1M+ Content Views | ECE'24 | Open to
-              Opportunities
+      <div class="hero-img">
+        <img src="img/Hero-img.png" alt="Image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ^ Project Section -->
+  <section id="Projects">
+    <div class="project-section-heading">
+      <h2 class="main-heading">My Projects</h2>
+    </div>
+
+    <div class="project-container">
+      <!-- Zerodha Ui Clone -->
+      <div class="project-card first">
+        <div class="project-content">
+          <div class="tech-stack w-60">
+            <img src="img/HTML.png" alt="HTML5 Logo" class="tech-img" />
+            <img src="img/CSS.png" alt="CSS3 Logo" class="tech-img" />
+            <img src="img/Bootstrap.svg" alt="Bootstrap Icon" class="tech-img" />
+          </div>
+
+          <div class="project-heading w-60">
+            <h1 class="main-heading white">Zerodha Ui Clone</h1>
+          </div>
+
+          <div class="project-description w-60">
+            <p class="para white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              facilis provident sed dolores quidem neque nihil eum maxime amet
+              ut. Delectus sit facere amet voluptatum?
             </p>
+          </div>
 
-            <button class="botao">
-              <svg
-                width="24px"
-                height="24px"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                class="mysvg"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <g id="Interface / Download">
-                    <path
-                      id="Vector"
-                      d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
-                      stroke="#f1f1f1"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </g>
-                </g>
+          <div class="project-links w-60">
+            <button class="Btn">
+              <svg class="svgIcon" viewBox="0 0 496 512" height="1.4em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                </path>
               </svg>
-              <span class="texto para">Resume</span>
+              <a href="https://www.github.com" target="_blank" class="text nav-heading">Code</a>
+            </button>
+            <button class="Btn demo-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svgIcon demo">
+                &lt;
+                <path
+                  d="M562.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L405.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C189.5 251.2 196 330 246 380c56.5 56.5 148 56.5 204.5 0L562.8 267.7zM43.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C57 372 57 321 88.5 289.5L200.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C416.5 260.8 410 182 360 132c-56.5-56.5-148-56.5-204.5 0L43.2 244.3z">
+                </path>
+              </svg>
+              <a href="https://www.github.com" target="_blank" class="text nav-heading">Demo</a>
             </button>
           </div>
         </div>
+      </div>
 
-        <div class="hero-img">
-          <img src="img/Hero-img.png" alt="Image" />
+      <!-- Netflix Ui Clone -->
+      <div class="project-card second">
+        <div class="project-content">
+          <div class="tech-stack w-60">
+            <img src="img/HTML.png" alt="HTML5 Logo" class="tech-img" />
+            <img src="img/CSS.png" alt="CSS3 Logo" class="tech-img" />
+          </div>
+
+          <div class="project-heading w-60">
+            <h1 class="main-heading white">Netflix Ui Clone</h1>
+          </div>
+
+          <div class="project-description w-60">
+            <p class="para white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              facilis provident sed dolores quidem neque nihil eum maxime amet
+              ut. Delectus sit facere amet voluptatum?
+            </p>
+          </div>
+
+          <div class="project-links w-60">
+            <button class="Btn">
+              <svg class="svgIcon" viewBox="0 0 496 512" height="1.4em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                </path>
+              </svg>
+              <a href="https://www.github.com" target="_blank" class="text nav-heading">Code</a>
+            </button>
+            <button class="Btn demo-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svgIcon demo">
+                &lt;
+                <path
+                  d="M562.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L405.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C189.5 251.2 196 330 246 380c56.5 56.5 148 56.5 204.5 0L562.8 267.7zM43.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C57 372 57 321 88.5 289.5L200.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C416.5 260.8 410 182 360 132c-56.5-56.5-148-56.5-204.5 0L43.2 244.3z">
+                </path>
+              </svg>
+              <a href="https://www.github.com" target="_blank" class="text nav-heading">Demo</a>
+            </button>
+          </div>
         </div>
       </div>
-    </section>
 
-    <!-- Fontawesome -->
-    <script
-      src="https://kit.fontawesome.com/f65c02f848.js"
-      crossorigin="anonymous"
-    ></script>
+      <!-- My Portfolio-->
+      <div class="project-card third">
+        <div class="project-content">
+          <div class="tech-stack w-60">
+            <img src="img/HTML.png" alt="HTML5 Logo" class="tech-img" />
+            <img src="img/CSS.png" alt="CSS3 Logo" class="tech-img" />
+            <img src="img/Javascript.svg" alt="CSS3 Logo" class="tech-img" />
+          </div>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#element", {
-        strings: ["Sushil Soniwal!"],
-        typeSpeed: 50, // Typing speed in milliseconds
-        backSpeed: 30, // Backspacing speed in milliseconds
-        loop: true, // Enable looping
-        loopCount: Infinity, // Number of loops, set to Infinity for infinite loop
-        backDelay: 3000,
-      });
-    </script>
-  </body>
+          <div class="project-heading w-60">
+            <h1 class="main-heading white">My Portfolio</h1>
+          </div>
+
+          <div class="project-description w-60">
+            <p class="para white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              facilis provident sed dolores quidem neque nihil eum maxime amet
+              ut. Delectus sit facere amet voluptatum?
+            </p>
+          </div>
+
+          <div class="project-links w-60">
+            <button class="Btn">
+              <svg class="svgIcon" viewBox="0 0 496 512" height="1.4em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                </path>
+              </svg>
+              <a href="https://www.github.com" target="_blank" class="text nav-heading">Code</a>
+            </button>
+            <button class="Btn demo-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svgIcon demo">
+                &lt;
+                <path
+                  d="M562.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L405.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C189.5 251.2 196 330 246 380c56.5 56.5 148 56.5 204.5 0L562.8 267.7zM43.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C57 372 57 321 88.5 289.5L200.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C416.5 260.8 410 182 360 132c-56.5-56.5-148-56.5-204.5 0L43.2 244.3z">
+                </path>
+              </svg>
+              <a href="https://www.github.com" target="_blank" class="text nav-heading">Demo</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/f65c02f848.js" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Sushil Soniwal!"],
+      typeSpeed: 50, // Typing speed in milliseconds
+      backSpeed: 30, // Backspacing speed in milliseconds
+      loop: true, // Enable looping
+      loopCount: Infinity, // Number of loops, set to Infinity for infinite loop
+      backDelay: 3000,
+    });
+  </script>
+</body>
+
 </html>
