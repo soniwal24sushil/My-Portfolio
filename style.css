@@ -86,7 +86,10 @@ li {
 
 section {
     margin: 1.3rem 0;
+}
 
+.mt {
+    margin-top: 25px;
 }
 
 /* ^ Navbar */
@@ -436,7 +439,7 @@ section {
 }
 
 #About {
-    width: 100%;
+    /* width: 100%; */
     max-width: 600px;
 }
 
@@ -449,7 +452,7 @@ section {
 }
 
 #Skills {
-    width: 100%;
+    /* width: 100%; */
     max-width: 600px;
 }
 
@@ -494,4 +497,304 @@ section {
     #Skills {
         width: 100%;
     }
+}
+
+/* ^ Contact  */
+
+#Contact {
+    /* background-color: purple; */
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.contact-form,
+.socials {
+    width: 45%;
+    height: 100%;
+    /* border: 2px dashed rgb(255, 102, 0); */
+    padding: 25px 0;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.171);
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.171);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="number"]:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #3791e6;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form-group input[type="submit"] {
+    background-color: #2518e28c;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #5b09f3;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form,
+    .socials {
+        width: 100%;
+    }
+
+    .socials {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .socials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social,
+    .coding {
+        width: 100%;
+    }
+}
+
+
+.social,
+.coding {
+    width: 100%;
+}
+
+
+/* & Second */
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+}
+
+.instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+}
+
+.gfg {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #00ff00;
+}
+
+.card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+}
+
+.twitter {
+    margin-top: 1.5em;
+    margin-left: -0.9em;
+    fill: black;
+}
+
+.leetcode {
+    margin-top: 1.5em;
+    margin-left: -0.9em;
+    fill: #0077b5;
+}
+
+.card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+}
+
+.linkedin {
+    margin-top: -0.6em;
+    margin-left: 1.2em;
+    fill: #0077b5;
+}
+
+.github {
+    margin-top: -0.6em;
+    margin-left: 1.2em;
+    fill: black;
+}
+
+.card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+}
+
+.contact-card:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.telegram {
+    margin-top: -0.9em;
+    margin-left: -1.2em;
+    fill: #7d90fc;
+}
+
+.codeforces {
+    margin-top: -0.9em;
+    margin-left: -1.2em;
+    fill: #8c9eff;
+}
+
+#insta-card:hover {
+    background-color: #d830ab;
+}
+
+#insta-card:hover .instagram {
+    fill: white;
+}
+
+#gfg-card:hover {
+    background-color: #00ff00;
+}
+
+#lc-card:hover {
+    background-color: #f1f505;
+}
+
+#linkedin-card:hover {
+    background-color: blue;
+}
+
+#linkedin-card:hover .linkedin {
+    fill: white;
+}
+
+#tweet-card:hover {
+    background-color: black;
+}
+
+#tweet-card:hover .twitter {
+    fill: white;
+}
+
+#git-card:hover {
+    background-color: black;
+}
+
+#tele-card:hover {
+    background-color: skyblue;
+}
+
+#tele-card:hover .telegram {
+    fill: blue;
+}
+
+#code-card:hover {
+    background-color: #f17c0e;
 }
