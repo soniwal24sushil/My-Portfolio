@@ -787,6 +787,10 @@ section {
     background-color: black;
 }
 
+#git-card:hover .github {
+    fill: white;
+}
+
 #tele-card:hover {
     background-color: skyblue;
 }
@@ -797,4 +801,116 @@ section {
 
 #code-card:hover {
     background-color: #f17c0e;
+}
+
+/* ^ Education */
+.education-container {
+    width: 100vw;
+    height: 100%;
+}
+
+#Education-Intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro-img {
+    width: 45%;
+}
+
+.intro-img>img {
+    width: 100%;
+
+}
+
+.intro-heading {
+    width: 45%;
+}
+
+#Education-Body {
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.college-logo {
+    border: 1px solid red;
+    border-radius: 50%;
+    box-shadow: rgb(217, 219, 223) 5px 5px 5px 0px;
+    margin-right: 25px;
+}
+
+.college-logo>img {
+    width: 100%;
+}
+
+.college-info {
+    width: 800px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    margin: 2rem 1rem;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.116);
+}
+
+.top {
+    padding: 1.5rem 1rem;
+    background: #18c5f0;
+    border-radius: 7px;
+}
+
+.top>h1,
+h4,
+h3 {
+    color: #001c55;
+}
+
+.first-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom {
+    padding: 1.5rem 1.2rem;
+    background-color: #edf9fe;
+}
+
+@media (max-width: 768px) {
+    #Education-Intro {
+        flex-direction: column;
+    }
+
+    .intro-img {
+        width: 90%;
+    }
+
+    .intro-heading {
+        width: 90%;
+    }
+
+    #Education-Body {
+        flex-direction: column;
+    }
+
+    .college-info {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-row {
+        flex-direction: column;
+    }
+
+    .first-row>h4 {
+        margin-top: 10px;
+    }
 }
